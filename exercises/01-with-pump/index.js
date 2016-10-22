@@ -6,4 +6,3 @@ var source = fs.createReadStream(__filename)
 var dest = process.stdout
 
 pump(source, dest)
-
